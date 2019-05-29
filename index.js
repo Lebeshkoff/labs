@@ -28,7 +28,7 @@ app.post('/Game', (req, res) => {
 
     ei = 3;
     ej = 3;
-    for (i = 0; i < 20; ++i)
+    for (i = 0; i < 1600; ++i)
         switch (Math.round(3 * Math.random())) {
             case 0: if (ei != 0) swap(arr, ei, ej, --ei, ej); break;            // замена с верхнеей
             case 1: if (ej != 3) swap(arr, ei, ej, ei, ++ej); break;           // замена с правой
